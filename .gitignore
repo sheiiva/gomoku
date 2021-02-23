@@ -1,0 +1,27 @@
+#
+# Ignoring rules for GitHub for the project Advanced C++ - Gomoku.
+#
+# (01/25/2021) - Barcelona
+# Authors:  Corentin COUTRET-ROZET <corentin.rozet@epitech.eu>
+#           Maxence DESROUSSEAUX <maxence.desrousseaux@epitech.eu>
+#           Hugo LACKAR <hugo1.lachkar@epitech.eu>
+#
+
+*__pycache__
+*vscode*
+tmp
+
+# PYTESTS
+htmlcov
+.coverage
+.pytest_cache
+
+## GOMOKU
+
+# BUILD
+build
+dist
+*.spec
+
+# BINARY
+pbrain-gomoku-ai*
